@@ -1,0 +1,25 @@
+#calhead
+{
+  background-color: lightgrey;
+}
+
+.weekend
+{
+  background-color: lightgrey;
+}
+
+td
+{
+  text-align: center;
+}
+
+.today
+{
+  color: red;
+  font-weight: bold;
+}
+
+table
+{
+  empty-cells: hide;
+}

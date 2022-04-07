@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>Nic's Object Mover</title>
+		<script type="text/javascript">
+			function moveBy(objectId)
+			{
+				if (document.getElementById)
+				{
+					var cWidth = window.document.body.clientWidth;
+					var cHeight = window.document.body.clientHeight;
+					var randX = Math.floor(Math.random() * cWidth) - 125;
+					var randY = Math.floor(Math.random() * cHeight) - 125;
+
+					document.getElementById(objectId).style.left = randX;
+					document.getElementById(objectId).style.top = randY;
+				}
+			}
+		</script>
+	</head>
+
+	<body style="background-image:url(sky.jpg)">
+		<div id="object" style="position:absolute; left:100; top:100">
+			<img id="object" src="./plane.png" width=250 height=250 onmouseover="moveBy('object')"/>
+		</div>
+	</body>
+</html>

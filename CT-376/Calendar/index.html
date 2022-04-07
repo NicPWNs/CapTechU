@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./scripts.js"></script>
+  <title>Nic's Calendar</title>
+  <script>
+    var mname = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+    var mdays = [31,28,31,30,31,30,31,31,30,31,30,31];
+    var dayname = ['S','M','T','W','T','F','S'];
+    var today = new Date();
+    var mth = today.getMonth();
+    var MTH = today.getMonth();
+    var yr = today.getFullYear();
+    var YR = today.getFullYear();
+    var dom = today.getDate();
+    var DOM = today.getDate();
+
+  </script>
+</head>
+
+<body>
+  <div>
+    <h3>Today's Date:</h3>
+    <h3 id="thisdate"><script>shortDate();</script></h3>
+  </div>
+
+  <button onclick="calendarMove(0,-1)"><<</button>
+  <button onclick="calendarMove(-1,0)"><</button>
+  <button onclick="calendarMove(0,0)">Today</button>
+  <button onclick="calendarMove(1,0)">></button>
+  <button onclick="calendarMove(0,1)">>></button>
+
+  <div id="calendar">
+
+  </div>
+</body>
+</html>

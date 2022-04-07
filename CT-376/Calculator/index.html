@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./scripts.js"></script>
+  <title>Nic's Calculator</title>
+</head>
+
+<body>
+  <form id="calc">
+    <br/>
+    <input type="text" id="dis"/>
+    <br/>
+    <br/>
+    <input type="button" class="opbut" value="+" onclick="oButton('+')"/>
+    <input type="button" class="opbut" value="-" onclick="oButton('-')"/>
+    <input type="button" class="opbut" value="*" onclick="oButton('*')"/>
+    <input type="button" class="opbut" value="/" onclick="oButton('/')"/>
+    <br/>
+    <input type="button" class="opbut" value="&#8730;" onclick="sqrtButton()"/>
+    <input type="button" class="opbut" value="x&#178;" onclick="sqButton()"/>
+    <input type="button" class="opbut" value="%" onclick="oButton('%')"/>
+    <input type="button" class="opbut" value="&#960;" onclick="piButton()"/>
+    <br/>
+    <br/>
+    <input type="button" class="numbut" value="1" onclick="nButton('1')"/>
+    <input type="button" class="numbut" value="2" onclick="nButton('2')"/>
+    <input type="button" class="numbut" value="3" onclick="nButton('3')"/>
+    <input type="button" class="numbut" value="M+" onclick="mButton('M')"/>
+    <br/>
+    <input type="button" class="numbut" value="4" onclick="nButton('4')"/>
+    <input type="button" class="numbut" value="5" onclick="nButton('5')"/>
+    <input type="button" class="numbut" value="6" onclick="nButton('6')"/>
+    <input type="button" class="numbut" value="MC" onclick="mButton('C')"/>
+    <br/>
+    <input type="button" class="numbut" value="7" onclick="nButton('7')"/>
+    <input type="button" class="numbut" value="8" onclick="nButton('8')"/>
+    <input type="button" class="numbut" value="9" onclick="nButton('9')"/>
+    <input type="button" class="numbut" value="MR" onclick="mButton('R')"/>
+    <br/>
+    <input type="button" class="numbut" value="CLR" onclick="clearDisplay()"/>
+    <input type="button" class="numbut" value="0" onclick="nButton('0')"/>
+    <input type="button" class="numbut" value="BKS" onclick="backspace()"/>
+    <label class="checkbox"><input id="checkbx" type="checkbox" onclick="hideTape()">Hide Memory</label>
+    <br/>
+    <br/>
+    <input type="button" class="eqbut" value="=" onclick="equals()"/>
+  </form>
+  <form id="memory">
+    <input type="text" id="memdis"/>
+    <br/>
+    <textarea id="memtape"></textarea>
+  </form>
+</body>
+</html>

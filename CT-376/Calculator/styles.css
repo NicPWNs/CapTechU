@@ -1,0 +1,100 @@
+body
+{
+  background-color: black;
+}
+
+form
+{
+ float: left;
+ margin-right: 50px;
+}
+
+#dis
+{
+  background-color: black;
+  padding: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  width: 240px;
+}
+
+#memdis
+{
+  background-color: black;
+  padding: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  width: 240px;
+}
+
+#memtape
+{
+  background-color: black;
+  padding: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  width: 240px;
+  height: 530px;
+}
+
+.numbut
+{
+  width: 77px;
+  height: 77px;
+  background-color: grey;
+  border: none;
+  padding: 0;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+.checkbox
+{
+  color: white;
+}
+
+.numbut:hover
+{
+  background-color: darkgrey;
+}
+
+.opbut
+{
+  width: 57px;
+  height: 57px;
+  background-color: darkorange;
+  border: none;
+  padding: 0;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+.opbut:hover
+{
+  background-color: orange;
+}
+
+.eqbut
+{
+  width: 237px;
+  height: 41px;
+  background-color: grey;
+  border: none;
+  padding: 0;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 25%;
+}
+
+.eqbut:hover
+{
+  background-color: darkgrey;
+}

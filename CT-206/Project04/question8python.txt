@@ -1,0 +1,1 @@
+{"me": [{"name": "Nic", "age": "19", "from": "Delaware", "class": "CT-206", "day": "Monday/Wednesday"}]}
