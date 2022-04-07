@@ -1,0 +1,8 @@
+- Server does not format data, it just provides it. Application provides formatting.
+- Each item handles its own errors.
+- Each service is a separate program/function.
+- Encryption happens in both directions.
+- App forks the client so it terminates when done.
+- Only dislike quotes and retain on application.
+- Have client fork into its specific service to provide upon call.
+- 
